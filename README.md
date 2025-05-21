@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt  # Pretty plots
 import tensorflow as tf       # The brain engine 🧠
 import torch                  # Bonus: PyTorch peek
 
-##👗 **About the Dataset: Fashion MNIST**
+**##👗 **About the Dataset: Fashion MNIST****
 
 
 | File Name                 | Content               | Count  | Use Case               |
@@ -36,10 +36,10 @@ import torch                  # Bonus: PyTorch peek
 
 
 
-💡 Inspiration
+##💡 Inspiration
 This notebook is inspired by the idea that learning AI should be fun and friendly. Whether you're just getting started or building a portfolio, this mini project shows how approachable deep learning can be.
 Thanks to NVIDIA for providing such fun experience.
 
-🙌 Let's Connect!
+##🙌 Let's Connect!
 If you like this, drop a ⭐ or connect on LinkedIn / Kaggle – let's build cool AI projects together!
 
