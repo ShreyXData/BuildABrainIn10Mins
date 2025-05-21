@@ -2,7 +2,7 @@
 
 ![Cover](./cover.png)
 
-[![Run on Kaggle](https://img.shields.io/badge/Run%20on-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/code/shreyxdata/build-a-brain-by-shrey)
+[![Run on Kaggle]((https://www.kaggle.com/code/shreyasuresh0407/buildabrain-notebook))
 
 > ✨ A quick and beginner-friendly project that teaches you how to build a simple neural network (a tiny artificial brain!) using Python + PyTorch. Train it to learn patterns like a human would — and all of this in just 10 minutes!
 
@@ -23,6 +23,8 @@ The images are 28x28 grayscale and are loaded using Python's `struct` module.
 
 ---
 
+
+
 ## 🧠 What You'll Learn
 
 - ✅ How to build a neural network from scratch using PyTorch
@@ -36,7 +38,7 @@ The images are 28x28 grayscale and are loaded using Python's `struct` module.
 
 > Want to try it yourself? Just click below:
 
-[![Run on Kaggle](https://img.shields.io/badge/Run%20on-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/code/shreyxdata/build-a-brain-by-shrey)
+[![Run on Kaggle]((https://www.kaggle.com/code/shreyasuresh0407/buildabrain-notebook))
 
 Kaggle gives you:
 - Free GPU 💻⚡
