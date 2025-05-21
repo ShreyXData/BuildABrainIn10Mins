@@ -1,6 +1,6 @@
 # 🧠 Build A Brain in 10 Minutes – by Shrey
 
-![Cover](./cover.png)
+
 
 [![Run on Kaggle](https://img.shields.io/badge/Run%20on-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/code/shreyasuresh0407/buildabrain-notebook)
 
