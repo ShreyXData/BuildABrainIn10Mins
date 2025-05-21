@@ -1,48 +1,65 @@
 # 🧠 Build A Brain in 10 Minutes
 
-Welcome to **Build A Brain in 10 Minutes** – a fun, beginner-friendly machine learning project where we train a tiny AI to **recognise clothes** using **TensorFlow** and the **Fashion MNIST** dataset. 👕👗👞
+![Cover](./cover.png)
 
-This notebook is like teaching a baby robot to look at outfits and say, “Aha! That’s a sneaker!” 🤖💡  
-Perfect if you're just getting started with AI or want a quick refresher on neural networks!
+[![Run on Kaggle](https://img.shields.io/badge/Run%20on-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/code/shreyxdata/build-a-brain-by-shrey)
 
----
-
-## 🚀 What You’ll Learn
-- How to load and visualise the Fashion MNIST dataset
-- How to normalise image data for neural networks
-- How to build a simple neural network using TensorFlow
-- How to train a model and check its performance
-- All explained with **clear comments** and **emojis** to make it fun and accessible! 🎉
+> ✨ A quick and beginner-friendly project that teaches you how to build a simple neural network (a tiny artificial brain!) using Python + PyTorch. Train it to learn patterns like a human would — and all of this in just 10 minutes!
 
 ---
 
-## 🧰 Tools Used
+## 📚 About the Dataset
+
+This project uses the **MNIST dataset** in IDX format — a classic dataset of handwritten digits (0 to 9).
+
+| File Name                 | Description                    |
+|--------------------------|--------------------------------|
+| `train-images-idx3-ubyte` | 60,000 training digit images   |
+| `train-labels-idx1-ubyte` | Labels (0–9) for training data |
+| `t10k-images-idx3-ubyte`  | 10,000 test digit images       |
+| `t10k-labels-idx1-ubyte`  | Labels for test data           |
+
+The images are 28x28 grayscale and are loaded using Python's `struct` module.
+
+---
+
+## 🧠 What You'll Learn
+
+- ✅ How to build a neural network from scratch using PyTorch
+- ✅ How to load and train on real image data
+- ✅ How machines learn using pattern recognition
+- ✅ How to visualize predictions and results
+
+---
+
+## 🚀 How to Run It
+
+> Want to try it yourself? Just click below:
+
+[![Run on Kaggle](https://img.shields.io/badge/Run%20on-Kaggle-blue?logo=kaggle)](https://www.kaggle.com/code/shreyxdata/build-a-brain-by-shrey)
+
+Kaggle gives you:
+- Free GPU 💻⚡
+- No setup required
+- Fast execution and sharing
+
+---
+
+## 🎥 Preview (Optional)
+
+> *(You can upload a screenshot or GIF of the output later here)*
+
 ```python
-import numpy as np            # Array & math magic
-import pandas as pd           # Data wrangling
-import matplotlib.pyplot as plt  # Pretty plots
-import tensorflow as tf       # The brain engine 🧠
-import torch                  # Bonus: PyTorch peek
+# Example: Code to visualize first few training images
+import matplotlib.pyplot as plt
 
----
-**##👗 **About the Dataset: Fashion MNIST****
+fig, axes = plt.subplots(1, 10, figsize=(15, 2))
+for i in range(10):
+    axes[i].imshow(train_images[i][0], cmap="gray")
+    axes[i].set_title(f"Label: {train_labels[i].item()}")
+    axes[i].axis("off")
+plt.show()
 
-
-| File Name                 | Content               | Count  | Use Case               |
-| ------------------------- | --------------------- | ------ | ---------------------- |
-| `train-images-idx3-ubyte` | 28×28 training images | 60,000 | Model training input   |
-| `train-labels-idx1-ubyte` | Labels for training   | 60,000 | Supervised learning    |
-| `t10k-images-idx3-ubyte`  | 28×28 test images     | 10,000 | Model performance test |
-| `t10k-labels-idx1-ubyte`  | Labels for test set   | 10,000 | Evaluation & metrics   |
-
----
-
-## 💡 Inspiration
-This notebook is inspired by the idea that learning AI should be fun and friendly. Whether you're just getting started or building a portfolio, this mini project shows how approachable deep learning can be.
-Thanks to NVIDIA for providing such fun experience.
-
-##  🙌 Let's Connect!
-If you like this, drop a ⭐ or connect on LinkedIn / Kaggle – let's build cool AI projects together!
 
 
 
