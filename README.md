@@ -44,3 +44,6 @@ Thanks to NVIDIA for providing such fun experience.
 ##  🙌 Let's Connect!
 If you like this, drop a ⭐ or connect on LinkedIn / Kaggle – let's build cool AI projects together!
 
+
+
+![Cover](./cover.png)
