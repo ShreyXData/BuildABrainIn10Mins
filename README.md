@@ -43,22 +43,6 @@ Kaggle gives you:
 - No setup required
 - Fast execution and sharing
 
----
-
-## 🎥 Preview (Optional)
-
-> *(You can upload a screenshot or GIF of the output later here)*
-
-```python
-# Example: Code to visualize first few training images
-import matplotlib.pyplot as plt
-
-fig, axes = plt.subplots(1, 10, figsize=(15, 2))
-for i in range(10):
-    axes[i].imshow(train_images[i][0], cmap="gray")
-    axes[i].set_title(f"Label: {train_labels[i].item()}")
-    axes[i].axis("off")
-plt.show()
 
 
 
